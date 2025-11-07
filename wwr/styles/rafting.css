@@ -135,7 +135,6 @@ header img {
   align-items: start;
 }
 
-
 .index__newsletter-cta h2,
 .cta-content h2,
 .trips_images h2 {
@@ -179,7 +178,6 @@ label {
   top: 10px;
   transition: 0.2s ease all;
 }
-
 
 .bar {
   position: relative;
@@ -429,6 +427,12 @@ input:focus ~ .highlight {
   height: 250px;
   margin: 0 1rem;
   border-radius: 10px;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .hero article p {

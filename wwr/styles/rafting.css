@@ -68,8 +68,12 @@ header img {
 }
 
 .hero h1 {
+  position: absolute;   /* REQUIRED */
+  top: 20px;            /* ajuste opcional */
+  left: 20px;           /* ajuste opcional */
   background-color: var(--accent1-color);
-  color: var(--primary-color); /* texto escuro */
+  color: var(--primary-color);
+  padding: 10px;
 }
 
 .hero article {

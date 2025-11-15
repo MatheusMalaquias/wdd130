@@ -51,7 +51,7 @@ header img {
   height: 80px;
 }
 
-/* Remove underline ONLY for social media icons */
+/* SOCIAL MEDIA LINKS - remove underline */
 .socialmedia a {
   text-decoration: none;
 }
@@ -78,6 +78,7 @@ header img {
   color: #fff;
 }
 
+/* HERO ARTICLE OVERLAY */
 .hero article {
   position: absolute;
   bottom: 20px;

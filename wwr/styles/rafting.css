@@ -383,7 +383,6 @@ input:focus ~ .highlight {
 /* About Us */
 
 .hero {
-  background-image: url("../images/rafting16_1024.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

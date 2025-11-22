@@ -308,16 +308,4 @@
   
   .button:hover {
     background-color: var(--accent-cyan);
-  }
-  
-  /* Required resets */
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  
-  /* Ensure hero overlay structure */
-  .hero { position: relative; }
-  .hero h1, 
-  .hero article { position: absolute; z-index: 2; }
-  
-  /* Improve contrast for text over bright backgrounds */
-  .hero-content { background-color: rgba(0,0,0,0.75); }
-  .hero h1, .hero p { color: white; }  
+  }  

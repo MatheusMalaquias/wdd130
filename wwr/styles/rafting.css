@@ -1,308 +1,153 @@
 /* ==========================
    ROOT VARIABLES
-   ========================== */
-   :root {
-    --primary-blue: rgb(39, 68, 93);
-    --accent-cyan: rgb(73, 125, 116);
-    --nature-white: rgb(239, 233, 213);
-    --nature-brown: rgb(102, 59, 19);
-  }
-  
-  /* ==========================
-     GLOBAL RESET
-     ========================== */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  body {
-    font-family: serif;
-    font-size: 1em;
-    background-color: var(--nature-white);
-    color: var(--nature-brown);
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  
-  /* ==========================
-     HEADER
-     ========================== */
-  header {
-    background-color: var(--primary-blue);
-    color: white;
-    padding: 1.5rem;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 150px 1fr 1fr;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-  }
-  
-  .header__title h1 {
-    font-size: 1.5rem;
-    font-family: serif;
-  }
-  
-  .header__navbar nav {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  header img {
-    width: 160px;
-    height: 100px;
-  }
-  
-  /* ==========================
-     ABOUT HERO SECTION
-     ========================== */
-  .hero {
-    width: 100%;
-    height: 80vh;
-    position: relative; /* FIXED */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-  }
-  
-  .hero-content {
-    background-color: rgba(0, 0, 0, 0.75);
-    padding: 0 2rem;
-    border-radius: 10px;
-    width: 80%;
-    height: 60%;
-    position: relative;
-    margin: auto;
-    top: 20%;
-  }
-  
-  .hero-content h1 {
-    position: absolute;
-    color: var(--nature-white);
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero article {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    top: 45%;
-  }
-  
-  .hero article img {
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
-    float: right; /* FIXED */
-  }
-  
-  .hero article p {
-    font-size: 1.5rem;
-    text-align: left;
-    width: 50%;
-  }
-  
-  /* ==========================
-     HISTORY SECTION
-     ========================== */
-  .history {
-    background-color: var(--nature-white);
-    color: var(--nature-brown);
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .history h2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .history__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .history img {
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
-  }
-  
-  /* ==========================
-     ADVENTURES SECTION
-     ========================== */
-  .Adventures {
-    width: 100%;
-    padding: 2rem;
-    background-color: var(--primary-blue);
-    color: var(--nature-white);
-    text-align: center;
-  }
-  
-  .Adventures h2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .Adventures__content {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    justify-items: center;
-  }
-  
-  .Adventures__content figure {
-    width: 200px;
-  }
-  
-  .Adventures img {
-    width: 100%;
-    height: auto;
-    max-height: 250px;
-    border-radius: 10px;
-  }
-  
-  /* ==========================
-     FOOTER
-     ========================== */
-  footer {
-    background-color: var(--primary-blue);
-    color: white;
-    padding: 2rem;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 2fr 0.5fr;
-  }
-  
-  footer nav a {
-    text-decoration: none; /* REQUIRED */
-  }
-  
-  footer nav img {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-  
-  /* ==========================
-     CONTACT PAGE
-     ========================== */
-  .contact__company-info-section {
-    background-color: var(--accent-cyan);
-    width: 100%;
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-  }
-  
-  .contact__company-info {
-    background-color: var(--nature-brown);
-    color: white;
-    padding: 1rem;
-    border-radius: 10px;
-    width: 35%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .contact__employees-section {
-    width: 100%;
-    min-height: 80vh;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .employee {
-    background-color: var(--nature-brown);
-    color: white;
-    padding: 1rem;
-    border-radius: 10px;
-    width: 400px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* ==========================
-     TRIPS
-     ========================== */
-  .trip__cta {
-    width: 60%;
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 80px 20px;
-    color: white;
-  }
-  
-  .trip-descriptions {
-    max-width: 1100px;
-    margin: 40px auto;
-    text-align: center;
-  }
-  
-  .trip-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-  
-  .trip {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .trip-table {
-    max-width: 800px;
-    margin: 40px auto;
-    text-align: center;
-  }
-  
-  /* ==========================
-     UNIFIED BUTTON STYLE (FIXED)
-     ========================== */
-  .button {
-    display: inline-block;
-    background-color: var(--nature-brown);
-    color: var(--nature-white);
-    padding: 12px 20px;
-    font-size: 1.2rem;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .button:hover {
-    background-color: var(--accent-cyan);
-  }
+========================== */
+:root {
+  --primary-blue: rgb(39, 68, 93);
+  --accent-cyan: rgb(73, 125, 116);
+  --nature-white: rgb(239, 233, 213);
+  --nature-brown: rgb(102, 59, 19);
+}
+
+/* ==========================
+ GLOBAL RESET
+========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  background-color: var(--nature-white);
+  color: var(--nature-brown);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ==========================
+ HEADER
+========================== */
+header {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+header img {
+  width: 150px;
+}
+
+.header__navbar {
+  display: flex;
+  gap: 2rem;
+}
+
+/* ==========================
+ HERO SECTION
+========================== */
+.hero {
+  position: relative; /* REQUIRED */
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.hero-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-title {
+  position: absolute; /* REQUIRED */
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background: rgba(0,0,0,.6);
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  border-radius: 10px;
+}
+
+.hero-article {
+  position: absolute; /* REQUIRED */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background: rgba(0,0,0,.7);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+}
+
+/* ==========================
+ HISTORY SECTION
+========================== */
+.history {
+  padding: 2rem;
+  text-align: center;
+}
+
+.history__content {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.history__content img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ==========================
+ ADVENTURES
+========================== */
+.Adventures {
+  background: var(--primary-blue);
+  color: var(--nature-white);
+  padding: 2rem;
+  text-align: center;
+}
+
+.Adventures__content {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.Adventures__content img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ==========================
+ FOOTER
+========================== */
+footer {
+  background: var(--primary-blue);
+  color: white;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+footer img {
+  width: 1.8rem;
+}

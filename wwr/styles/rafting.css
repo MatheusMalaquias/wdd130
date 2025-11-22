@@ -383,6 +383,7 @@ input:focus ~ .highlight {
 /* About Us */
 
 .hero {
+  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -396,7 +397,6 @@ input:focus ~ .highlight {
   height: 80vh;
 }
 
-
 .hero-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0 2rem;
@@ -407,6 +407,7 @@ input:focus ~ .highlight {
 }
 
 .hero-content h1{
+  position: absolute;
   color: var var(--nature-white);
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -422,6 +423,7 @@ input:focus ~ .highlight {
 }
 
 .hero article img {
+  float: right;
   width: 400px;
   height: 250px;
   margin: 0 1rem;

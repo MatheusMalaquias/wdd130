@@ -79,11 +79,6 @@
     color: white;
   }
   
-  .hero h1,
-  .hero article {
-    position: absolute; /* FIXED */
-  }
-  
   .hero-content {
     background-color: rgba(0, 0, 0, 0.75);
     padding: 0 2rem;
@@ -96,12 +91,14 @@
   }
   
   .hero-content h1 {
+    position: absolute;
     color: var(--nature-white);
     font-size: 3rem;
     margin-bottom: 1rem;
   }
   
   .hero article {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -308,4 +305,4 @@
   
   .button:hover {
     background-color: var(--accent-cyan);
-  }  
+  }

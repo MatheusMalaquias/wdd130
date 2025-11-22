@@ -793,3 +793,9 @@ td {
 tr:nth-child(even) td {
   background-color: #e8e8e8;
 }
+
+.socialmedia a,
+footer nav a {
+  text-decoration: none;
+  color: inherit;
+}

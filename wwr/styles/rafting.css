@@ -695,17 +695,6 @@ footer nav a img {
   color: white
 }
 
-.button {
-  display: inline-block;
-  background-color: #e74c3c;
-  color: white;
-  padding: 12px 20px;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background 0.3s;
-}
-
 .button:hover {
   background-color: #c0392b;
 }

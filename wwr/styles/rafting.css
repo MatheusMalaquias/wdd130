@@ -1,6 +1,5 @@
 :root {
   --primary-blue: rgb(39, 68, 93);
-  --accent-cyan: rgb(73, 125, 116);
   --nature-green: rgb(113, 187, 178);
   --nature-white: rgb(239, 233, 213);
   --nature-brown: rgb(102, 59, 19);
@@ -154,8 +153,6 @@ header img {
 .input-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
-
 }
 
 input {
@@ -567,7 +564,6 @@ footer nav a img {
   color: white;
   border-radius: 10px;
   padding: 1rem;
-  
 }
 
 .contact__company-info-map {
@@ -637,8 +633,6 @@ footer nav a img {
 .contact-form textarea {
   resize: none;
 }
-
-
 
 /* Radio & Checkbox */
 .contact-form div {

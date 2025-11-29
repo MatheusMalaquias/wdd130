@@ -96,9 +96,7 @@ header img {
 .index__hero {
   position: relative;
   width: 100%;
-  height: 90vh;
-  background: url("https://images.unsplash.com/photo-1569790526975-1d494c312bc9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
- 
+  height: 90vh; 
 }
 
 .index__hero-heading {
@@ -387,7 +385,6 @@ input:focus ~ .highlight {
 /* About Us */
 
 .hero {
-  background-image: url("../images/rafting16_1024.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -624,8 +621,6 @@ footer nav a img {
   padding: 20px
 }
 
-
-
 /* Inputs & Textarea */
 .contact-form input[type="text"],
 .contact-form input[type="email"],
@@ -685,7 +680,6 @@ footer nav a img {
 .trip__cta {
   text-align: center;
   margin-top: 50px;
-  background: url("https://images.unsplash.com/photo-1521336575822-6da63fb45455?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
   color: white;
   padding: 80px 20px;
   width: 60%;

@@ -532,7 +532,7 @@ footer nav a img {
 }
 
 .contact__company-info-section {
-  background-color: var(--primary-blue);
+  background-color: var(--nature-white);
   width: 100%;
   min-height: 60vh;
   display: flex;
@@ -671,6 +671,8 @@ footer nav a img {
 
 /* =========== TRIP ===========*/
 
+/*
+
 .trip__cta {
   text-align: center;
   margin-top: 50px;
@@ -709,6 +711,8 @@ footer nav a img {
 }
 
 /* Trip Descriptions (Grid Layout) */
+
+/*
 .trip-descriptions {
   max-width: 1100px;
   margin: 40px auto;
@@ -753,6 +757,8 @@ footer nav a img {
 }
 
 /* Trip Table */
+
+/*
 .trip-table {
   max-width: 800px;
   margin: 40px auto;

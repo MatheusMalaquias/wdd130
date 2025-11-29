@@ -277,7 +277,7 @@ input:focus ~ .highlight {
 }
 
 .liquid::before {
-  background-color: var(--accent-cyan);
+  background-color: var(--primary-blue);
   z-index: 1;
 }
 
@@ -334,7 +334,7 @@ input:focus ~ .highlight {
 }
 
 .form-button:hover {
-  background-color: var(--accent-cyan);
+  background-color: var(--primary-blue);
 }
 
 .cta-image img {
@@ -406,7 +406,7 @@ input:focus ~ .highlight {
 }
 
 .hero-content h1{
-  color: var var(--nature-white);
+  color: var(--nature-white);
   font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Trade Winds", serif;
@@ -532,13 +532,13 @@ footer nav a img {
 }
 
 .contact__company-info-section {
-  background-color: var(--accent-cyan);
+  background-color: var(--primary-blue);
   width: 100%;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margim-bottom: 15px;
+  margin-bottom: 15px;
   align-items: center;
   padding: 1rem;
 }
@@ -642,7 +642,7 @@ footer nav a img {
 .contact-form input[type="radio"],
 .contact-form input[type="checkbox"] {
   margin: 20px 5px;
-  width: 20p;
+  width: 20px;
   accent-color: var(--nature-brown);
 }
 
@@ -693,7 +693,7 @@ footer nav a img {
   color: white
 }
 
-.button {
+.trip-button {
   display: inline-block;
   background-color: #e74c3c;
   color: white;
@@ -704,7 +704,7 @@ footer nav a img {
   transition: background 0.3s;
 }
 
-.button:hover {
+.trip-button:hover {
   background-color: #c0392b;
 }
 

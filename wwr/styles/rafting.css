@@ -1,5 +1,7 @@
 :root {
   --primary-blue: rgb(39, 68, 93);
+  --accent-cyan: rgb(73, 125, 116);
+  --nature-green: rgb(113, 187, 178);
   --nature-white: rgb(239, 233, 213);
   --nature-brown: rgb(102, 59, 19);
 }
@@ -96,6 +98,7 @@ header img {
   width: 100%;
   height: 90vh;
   background: url("https://images.unsplash.com/photo-1569790526975-1d494c312bc9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
+ 
 }
 
 .index__hero-heading {
@@ -132,6 +135,7 @@ header img {
   align-items: start;
 }
 
+
 .index__newsletter-cta h2,
 .cta-content h2,
 .trips_images h2 {
@@ -152,6 +156,8 @@ header img {
 .input-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+
 }
 
 input {
@@ -381,7 +387,7 @@ input:focus ~ .highlight {
 /* About Us */
 
 .hero {
-  position: relative;
+  background-image: url("../images/rafting16_1024.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -395,6 +401,7 @@ input:focus ~ .highlight {
   height: 80vh;
 }
 
+
 .hero-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0 2rem;
@@ -405,7 +412,6 @@ input:focus ~ .highlight {
 }
 
 .hero-content h1{
-  position: absolute;
   color: var var(--nature-white);
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -421,7 +427,6 @@ input:focus ~ .highlight {
 }
 
 .hero article img {
-  float: right;
   width: 400px;
   height: 250px;
   margin: 0 1rem;
@@ -619,6 +624,8 @@ footer nav a img {
   padding: 20px
 }
 
+
+
 /* Inputs & Textarea */
 .contact-form input[type="text"],
 .contact-form input[type="email"],
@@ -635,6 +642,8 @@ footer nav a img {
 .contact-form textarea {
   resize: none;
 }
+
+
 
 /* Radio & Checkbox */
 .contact-form div {
@@ -683,6 +692,7 @@ footer nav a img {
   height: 400px;
   display: flex;
   flex-direction: column
+
 }
 
 .trip__ctaa h2 {
@@ -695,6 +705,17 @@ footer nav a img {
   color: white
 }
 
+.button {
+  display: inline-block;
+  background-color: #e74c3c;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
 .button:hover {
   background-color: #c0392b;
 }
@@ -705,6 +726,7 @@ footer nav a img {
   margin: 40px auto;
   padding: 20px;
   text-align: center;
+
 }
 
 .trip-descriptions h2 {
@@ -779,8 +801,4 @@ td {
 
 tr:nth-child(even) td {
   background-color: #e8e8e8;
-}
-
-.socialmedia a {
-  text-decoration: none;
 }

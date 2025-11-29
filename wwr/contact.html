@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact White Water Rafting for inquiries, reservations, and suggestions. Our friendly staff is here to help you with your adventure needs.">
+    <meta name="author" content="White Water Rafting Team">
+    <link rel="stylesheet" href="./styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Trade+Winds&display=swap"
+        rel="stylesheet">
+
+    <title>Contact White Water Rafting</title>
+</head>
+
+<body>
+    <header>
+        <img src="./Images/Logo.png" alt="logo">
+
+        <div class="header__navbar">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact__company-info-section">
+
+            <div class="contact-us-title">
+                <h1>White Water Rafting Company</h1>
+                <p>123 Adventure Lane, Rapidsville, RS 45678</p>
+                <p>(555) 123-4567</p>
+                <p>contact@raftingadventures.com</p>
+            </div>
+            <div class="contact-us-conteiner">
+                <iframe class="contact__company-info-map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509851!2d144.95373531531626!3d-37.81627937975192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f3f6d555%3A0x5045675218ce7e33!2sMelbourne%20CBD%2C%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1619489031242!5m2!1sen!2sus"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <p>Purpose of Message:</p>
+                <div class="input-container">
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required />
+                </div>
+                <div class="input-container">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question" />
+                </div>
+                <div class="input-container">
+                    <label for="suggestion">Website Suggestion</label>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" />
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <div class="input-container-check">
+                    <input type="checkbox" id="subscribe" name="subscribe" />
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Contact Us</button>
+            </form>
+        </section>
+
+        <section class="contact__employees-section">
+            <h2>We are here to serve you</h2>
+            <div class="employee-profiles">
+                <div class="employee">
+                    <img src="./Images/Jack.jpg" alt="Jack Doe - Guide" />
+                    <p>Jack Doe - Lead Rafting Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="images/Dylan.jpg" alt="Dylan Smith - Rafting Guide" />
+                    <p>Dylan Smith - Rafting Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="images/karoline.jpg" alt="Karoline Brown - Safety Coordinator" />
+                    <p>Karoline Brown - Safety Coordinator</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 | White Water Rafting | Matheus O. Malaquias</p>
+        <nav>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="./Images/Instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="./Images/Facebook.png" alt="facebook">
+            </a>
+
+            <a href="https://linkedin.com" target="_blank">
+                <span>
+                    <img src="./Images/Linkedin.png" alt="X">
+                </span>
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

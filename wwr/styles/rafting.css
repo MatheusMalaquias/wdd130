@@ -544,7 +544,7 @@ footer nav a img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margim-bottom: 15px;
+  margin-bottom: 15px;
   align-items: center;
   padding: 1rem;
 }
@@ -570,7 +570,6 @@ footer nav a img {
   color: white;
   border-radius: 10px;
   padding: 1rem;
-  
 }
 
 .contact__company-info-map {
@@ -624,8 +623,6 @@ footer nav a img {
   padding: 20px
 }
 
-
-
 /* Inputs & Textarea */
 .contact-form input[type="text"],
 .contact-form input[type="email"],
@@ -642,8 +639,6 @@ footer nav a img {
 .contact-form textarea {
   resize: none;
 }
-
-
 
 /* Radio & Checkbox */
 .contact-form div {

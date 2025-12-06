@@ -1,5 +1,6 @@
 :root {
   --primary-blue: rgb(39, 68, 93);
+  --accent-cyan: rgb(73, 125, 116);
   --nature-green: rgb(113, 187, 178);
   --nature-white: rgb(239, 233, 213);
   --nature-brown: rgb(102, 59, 19);
@@ -95,7 +96,9 @@ header img {
 .index__hero {
   position: relative;
   width: 100%;
-  height: 90vh; 
+  height: 90vh;
+  background: url("https://images.unsplash.com/photo-1569790526975-1d494c312bc9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
+ 
 }
 
 .index__hero-heading {
@@ -153,6 +156,8 @@ header img {
 .input-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+
 }
 
 input {
@@ -277,7 +282,7 @@ input:focus ~ .highlight {
 }
 
 .liquid::before {
-  background-color: var(--primary-blue);
+  background-color: var(--accent-cyan);
   z-index: 1;
 }
 
@@ -334,7 +339,7 @@ input:focus ~ .highlight {
 }
 
 .form-button:hover {
-  background-color: var(--primary-blue);
+  background-color: var(--accent-cyan);
 }
 
 .cta-image img {
@@ -382,6 +387,7 @@ input:focus ~ .highlight {
 /* About Us */
 
 .hero {
+  background-image: url("../images/rafting16_1024.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -406,7 +412,7 @@ input:focus ~ .highlight {
 }
 
 .hero-content h1{
-  color: var(--nature-white);
+  color: var var(--nature-white);
   font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Trade Winds", serif;
@@ -527,18 +533,18 @@ footer nav a img {
   font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Trade Winds", serif;
-  color: var(--nature-brown);
+  color: var(--nature-white);
   text-align: center;
 }
 
 .contact__company-info-section {
-  background-color: var(--nature-white);
+  background-color: var(--accent-cyan);
   width: 100%;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 15px;
+  margim-bottom: 15px;
   align-items: center;
   padding: 1rem;
 }
@@ -564,6 +570,7 @@ footer nav a img {
   color: white;
   border-radius: 10px;
   padding: 1rem;
+  
 }
 
 .contact__company-info-map {
@@ -617,6 +624,8 @@ footer nav a img {
   padding: 20px
 }
 
+
+
 /* Inputs & Textarea */
 .contact-form input[type="text"],
 .contact-form input[type="email"],
@@ -634,6 +643,8 @@ footer nav a img {
   resize: none;
 }
 
+
+
 /* Radio & Checkbox */
 .contact-form div {
   margin-top: 10px;
@@ -642,7 +653,7 @@ footer nav a img {
 .contact-form input[type="radio"],
 .contact-form input[type="checkbox"] {
   margin: 20px 5px;
-  width: 20px;
+  width: 20p;
   accent-color: var(--nature-brown);
 }
 
@@ -671,11 +682,10 @@ footer nav a img {
 
 /* =========== TRIP ===========*/
 
-/*
-
 .trip__cta {
   text-align: center;
   margin-top: 50px;
+  background: url("https://images.unsplash.com/photo-1521336575822-6da63fb45455?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
   color: white;
   padding: 80px 20px;
   width: 60%;
@@ -695,7 +705,7 @@ footer nav a img {
   color: white
 }
 
-.trip-button {
+.button {
   display: inline-block;
   background-color: #e74c3c;
   color: white;
@@ -706,13 +716,11 @@ footer nav a img {
   transition: background 0.3s;
 }
 
-.trip-button:hover {
+.button:hover {
   background-color: #c0392b;
 }
 
 /* Trip Descriptions (Grid Layout) */
-
-/*
 .trip-descriptions {
   max-width: 1100px;
   margin: 40px auto;
@@ -757,8 +765,6 @@ footer nav a img {
 }
 
 /* Trip Table */
-
-/*
 .trip-table {
   max-width: 800px;
   margin: 40px auto;

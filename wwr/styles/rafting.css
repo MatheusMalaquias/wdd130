@@ -408,7 +408,7 @@ input:focus ~ .highlight {
 }
 
 .hero-content h1{
-  color: var var(--nature-white);
+  color: var var(--nature-brown);
   font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Trade Winds", serif;

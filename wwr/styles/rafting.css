@@ -155,8 +155,6 @@ header img {
 .input-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
-
 }
 
 input {
@@ -180,7 +178,6 @@ label {
   top: 10px;
   transition: 0.2s ease all;
 }
-
 
 .bar {
   position: relative;
@@ -532,7 +529,7 @@ footer nav a img {
   font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Trade Winds", serif;
-  color: var(--nature-white);
+  color: var(--nature-brown);
   text-align: center;
 }
 

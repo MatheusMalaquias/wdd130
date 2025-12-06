@@ -397,7 +397,6 @@ input:focus ~ .highlight {
   height: 80vh;
 }
 
-
 .hero-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0 2rem;
@@ -408,7 +407,7 @@ input:focus ~ .highlight {
 }
 
 .hero-content h1{
-  color: var(--nature-brown);
+  color: var(--nature-white);
   font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Trade Winds", serif;

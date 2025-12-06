@@ -648,7 +648,7 @@ footer nav a img {
 .contact-form input[type="radio"],
 .contact-form input[type="checkbox"] {
   margin: 20px 5px;
-  width: 20p;
+  width: 20px;
   accent-color: var(--nature-brown);
 }
 
